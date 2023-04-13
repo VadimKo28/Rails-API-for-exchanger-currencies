@@ -17,5 +17,6 @@ gem 'kaminari'
 
 group :development, :test do
   gem "pry-rails"
+  gem "rspec-rails", "~> 6.0.0"
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 end
