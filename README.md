@@ -1,24 +1,7 @@
-# README
+Для запуска 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1) gem install bundler
+2) bundle install
+3) rails db:migrate 
+4) copy .env - скопировать переменные 
+5) bundle exec rake currencies:update - для загрузки данных с OpenExchangeRates
